@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background: url(space.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transform-style: preserve-3d;
+}
+.earth{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-40%,-45%);
+    width: 400px;
+    height: 400px;
+    background-image: url(earth2.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px rgba(0,0,0,1), 0 0 50px #4069ff; 
+    animation:animateEarth 15s linear infinite;
+} 
+@keyframes animateEarth
+{
+    0%
+    {
+        background-position: 0 0;
+    }
+    100%
+    {
+        background-position: -2400px 0;
+    }
+} 
+
+
+
+
+.dog{
+   animation: animate 0.2s ease infinite;
+    }
+    @keyframes animate
+    {
+        0%,100%
+        {
+            transform: translateY(-2px);
+        }
+        50%
+        {
+            transform: translateY(2px);
+        }
+    }
+    
+    
+    .dog::before
+    {
+        position: absolute;
+        content: "";
+        bottom: -200;
+        left: 47%; 
+        transform: translateX(-70%);
+        transform: translateY(80%);
+        width: 15px;
+        height: 200px;
+        background: linear-gradient(#00d0ff,transparent);
+
+    } 
+    .dog
+    {
+        position: absolute;
+        left: 46%;
+        top: 10%;
+    }
+    
+   
