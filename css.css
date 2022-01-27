@@ -29,8 +29,7 @@ ul {
     background-color: #111;
   }
 .bg { 
-   
-    height: 90vh;
+    height: 108vh;
     width: 100vw; 
     background-image: url("h2.jpg");
     background-position: center;
@@ -47,7 +46,9 @@ ul {
     text-decoration: underline;
 }
 .p2{
-     border-style: solid;
+    position: relative;
+    bottom: 0.989em;
+    border-style: solid;
     border-color: #111;
     background-color: #111;
     text-align: center;
@@ -57,7 +58,6 @@ ul {
     text-decoration: underline;
     position: relative;
     bottom: 0.989em;
-    
 }
 .w{
     color: red;
