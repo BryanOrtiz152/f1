@@ -37,13 +37,11 @@ ul {
     background-size: cover;
 }
 .color{ 
-    padding: 1px 1px;
+    color: white;
+    background-color: black;
     text-align: center;
-    display: block;
-    background-color: aqua; 
-    font-size: 3vw; 
-    font-size: 8vh;
-    text-decoration: underline;
+    font-size: 4rem;
+    padding-bottom: 1rem;
 }
 .p2{
     position: relative;
@@ -58,27 +56,4 @@ ul {
     text-decoration: underline;
     position: relative;
     bottom: 0.989em;
-}
-.w{
-    color: red;
-}
-.c{
-    color: red;
-}
-.e{
-    color:red;
-}
-.p{
-    color:red;
-}
-.f{
-    color: red;
-}
-.w{
-    color: red;
-}
-.s{
-    color: red;
-}
-body{font-family: "Lato", sans-serif;
 }
